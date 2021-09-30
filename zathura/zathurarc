@@ -1,0 +1,24 @@
+
+set sandbox none
+set statusbar-h-padding 0
+set statusbar-v-padding 0
+set page-padding 1
+set selection-clipboard clipboard
+map u scroll half-up
+map d scroll half-down
+map D toggle_page_mode
+map r reload
+map R rotate
+map K zoom in
+map J zoom out
+map i recolor
+map p print
+map g goto top
+
+set default-bg "#2e3440" #00
+
+set recolor-lightcolor "#2e3440" #01
+set recolor-darkcolor "#eceff4" #02
+
+et statusbar-fg "#eceff4" #03
+set statusbar-bg "#434c5e" #04

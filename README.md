@@ -7,3 +7,5 @@ Dotfiles for my [Archlinux](https://archlinux.org/) rice.
 ![neofetch](screenshots/neofetch.png)
 ![ncmpcpp](screenshots/ncmpcpp.png)
 ![tiling](screenshots/tiling.png)
+![nvchad](screenshots/nvchad.png)
+![zathura](screenshots/zathura.png)
