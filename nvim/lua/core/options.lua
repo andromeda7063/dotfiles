@@ -6,6 +6,7 @@ g.nvchad_user_config = "chadrc"
 
 local options = require("core.utils").load_config().options
 
+opt.title = true
 opt.clipboard = options.clipboard
 opt.cmdheight = options.cmdheight
 opt.cul = true -- cursor line
@@ -44,7 +45,7 @@ opt.updatetime = options.updatetime
 
 -- go to previous/next line with h,l,left arrow and right arrow
 -- when cursor reaches end/beginning of line
-opt.whichwrap:append "<>hl"
+opt.whichwrap:append "<>[]hl"
 
 g.mapleader = options.mapleader
 

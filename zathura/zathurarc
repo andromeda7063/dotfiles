@@ -15,10 +15,49 @@ map i recolor
 map p print
 map g goto top
 
-set default-bg "#2e3440" #00
+set notification-error-bg       "#ff5555" # Red
+set notification-error-fg       "#f8f8f2" # Foreground
+set notification-warning-bg     "#ffb86c" # Orange
+set notification-warning-fg     "#44475a" # Selection
+set notification-bg             "#282a36" # Background
+set notification-fg             "#f8f8f2" # Foreground
 
-set recolor-lightcolor "#2e3440" #01
-set recolor-darkcolor "#eceff4" #02
+set completion-bg               "#282a36" # Background
+set completion-fg               "#6272a4" # Comment
+set completion-group-bg         "#282a36" # Background
+set completion-group-fg         "#6272a4" # Comment
+set completion-highlight-bg     "#44475a" # Selection
+set completion-highlight-fg     "#f8f8f2" # Foreground
 
-et statusbar-fg "#eceff4" #03
-set statusbar-bg "#434c5e" #04
+set index-bg                    "#282a36" # Background
+set index-fg                    "#f8f8f2" # Foreground
+set index-active-bg             "#44475a" # Current Line
+set index-active-fg             "#f8f8f2" # Foreground
+
+set inputbar-bg                 "#282a36" # Background
+set inputbar-fg                 "#f8f8f2" # Foreground
+set statusbar-bg                "#282a36" # Background
+set statusbar-fg                "#f8f8f2" # Foreground
+
+set highlight-color             "##88c0d0" # Orange
+set highlight-active-color      "##88c0d0" # Pink
+
+set default-bg                  "#2e3440" # Background
+set default-fg                  "#3c3ff4" # Foreground
+
+set render-loading              true
+set render-loading-fg           "#282a36" # Background
+set render-loading-bg           "#f8f8f2" # Foreground
+
+#
+# Recolor mode settings
+#
+
+set recolor-lightcolor          "#2e3440" # Background
+set recolor-darkcolor           "#eceff4" # Foreground
+
+#
+# Startup options
+#
+set adjust-open width
+set recolor true
